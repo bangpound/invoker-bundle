@@ -1,0 +1,19 @@
+{
+    "name": "bangpound/invoker-bundle",
+    "description": "Manage server processes in your Symfony development environment",
+    "require": {
+        "react/child-process": "~0.5@dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bangpound\\Bundle\\InvokerBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin Doherty",
+            "email": "bjd@bangpound.org"
+        }
+    ]
+}

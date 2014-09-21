@@ -1,0 +1,9 @@
+parameters:
+    bangpound_invoker.command.invoker.class: Bangpound\Bundle\InvokerBundle\Command\InvokerCommand
+
+services:
+    bangpound_invoker.command.invoker:
+        class: %bangpound_invoker.command.invoker.class%
+        arguments: [ ]
+        tags:
+            - { name: console.command }
