@@ -7,6 +7,7 @@ use Psr\Log\LogLevel;
 use React\EventLoop\Factory;
 use React\EventLoop\Timer\Timer;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 
