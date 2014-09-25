@@ -50,7 +50,7 @@ Create ProcessBuilder services for each process this bundle should launch.
             - { name: bangpound_invoker.server }
 ```
 
-Then run the Symfony console comamand `invoker`.
+Then run the Symfony console command `invoker`.
 
 ```bash
 ./bin/console invoker -vv
